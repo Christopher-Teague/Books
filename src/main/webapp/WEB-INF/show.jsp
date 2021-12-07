@@ -18,9 +18,11 @@
 <title>Books</title>
 </head>
 <body>
-	<h1><c:out value="${book.title}"/> </h1>
-	<h3>Description: <c:out value="${book.description}"/> </h3>
-	<h3>Language: <c:out value="${book.language}"/> </h3>
-	<h3>Number of Pages: <c:out value="${book.numberOfPages}"/> </h3>
+	<div class="container mt-5">
+		<h1><c:out value="${book.title}"/> </h1>
+		<h3>Description: <c:out value="${book.description}"/> </h3>
+		<h3>Language: <c:out value="${book.language}"/> </h3>
+		<h3>Number of Pages: <c:out value="${book.numberOfPages}"/> </h3>
+	</div>		
 </body>
 </html>
